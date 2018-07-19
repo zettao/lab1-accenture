@@ -1,4 +1,4 @@
-RUN python:3.4-alpine
+FROM python:3.4-alpine
 ADD . /lab1-accenture
 WORKDIR /lab1-accenture
 RUN pip install -r Flask && \
